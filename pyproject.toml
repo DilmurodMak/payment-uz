@@ -1,0 +1,44 @@
+[project]
+name = "payment-uz-mcp"
+version = "1.0.0"
+description = "FastMCP server for Uzbekistan payment systems (Payme, Click, Octo)"
+authors = [
+    {name = "GetSpace Team", email = "support@getspace.uz"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["mcp", "payment", "uzbekistan", "payme", "click", "octo", "ai", "llm"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Office/Business :: Financial :: Point-Of-Sale",
+]
+
+dependencies = [
+    "fastmcp>=2.11.0",
+    "httpx>=0.27.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/DilmurodMak/payment-uz-mcp"
+Documentation = "https://github.com/DilmurodMak/payment-uz-mcp#readme"
+Repository = "https://github.com/DilmurodMak/payment-uz-mcp"
+Issues = "https://github.com/DilmurodMak/payment-uz-mcp/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["payment_uz_mcp"]
+
+[project.scripts]
+payment-uz-mcp = "server:main"
