@@ -11,11 +11,11 @@ A **FastMCP server** that exposes Uzbekistan's payment systems (Payme, Click, Oc
 
 **Payment-UZ MCP** is a Model Context Protocol server that turns complex payment integrations into simple AI conversations. Instead of reading documentation and writing code manually, just ask your AI assistant:
 
-> "Generate a Payme payment link for 50,000 UZS"
+> "Generate a Payme payment link for <amount> UZS"
 > 
 > "How do I verify a Click webhook signature?"
 > 
-> "Compare Payme, Click, and Octo for my e-commerce site"
+> "Compare Payme, Click, and Octo integration for my e-commerce site"
 
 The AI uses this MCP server to provide accurate, production-ready payment integration guidance and code.
 
