@@ -50,17 +50,6 @@ The AI uses this MCP server to provide accurate, production-ready payment integr
 - Market share and recommendations
 - Integration complexity analysis
 
-### 🛡️ **Security Tools**
-- Signature verification for all providers
-- Webhook authentication validation
-- PCI compliance guidelines
-- Fraud prevention strategies
-
-### 💻 **Code Generation**
-- Production-ready code examples
-- Multi-language support (Node.js, Python, PHP)
-- Framework-specific implementations
-- Database schemas and migration scripts
 
 ## 🚀 Quick Start
 
@@ -174,7 +163,7 @@ Add to your MCP configuration:
 **AI (using MCP):** Based on the comparison, I recommend:
 1. **Payme** - Essential for enterprise/B2B bookings (highest trust)
 2. **Click** - Easy integration, covers most consumer payments
-3. **Octo** - For modern features like recurring payments
+3. **Octo** - For modern features like recurring payments, and existing internation al cards as of June 2025.
 
 ### Verify Webhook Security
 
@@ -188,32 +177,13 @@ Add to your MCP configuration:
 Payment-UZ MCP Server
 ├── FastMCP Framework
 ├── Tools (15+ payment tools)
-├── Resources (Status monitoring)
 ├── Prompts (Code generation)
 └── Security (Signature verification)
 ```
 
-## 🔐 Security Features
-
-- ✅ **Signature Verification** - All providers supported
-- ✅ **Webhook Authentication** - Basic Auth and token validation
-- ✅ **Best Practices Guide** - PCI DSS compliance tips
-- ✅ **Fraud Prevention** - Detection strategies included
-- ✅ **Secure by Default** - Production-ready code examples
-
-## 🌍 Uzbekistan Payment Ecosystem
-
-### Market Coverage
-
-| Provider | Market Share | Best For |
-|----------|-------------|----------|
-| **Payme** | ~40% | Enterprise, Government |
-| **Click** | ~35% | E-commerce, SMB |
-| **Octo** | ~15% | SaaS, Modern Apps |
-
 ### Why This Matters
 
-Uzbekistan has a unique payment landscape with these three dominant providers. Unlike global markets where Stripe/PayPal dominate, Uzbek developers **must** integrate local providers. This MCP server makes that integration **10x easier**.
+Uzbekistan has a unique payment landscape with these three dominant providers and its growing with new players. Unlike global markets where Stripe/PayPal dominate, Uzbek developers **must** integrate local providers and the documentation always varies. This MCP server makes that integration easier.
 
 ## 🛠️ Development
 
@@ -248,27 +218,15 @@ MIT License - feel free to use in your projects!
 
 ## 🙏 Acknowledgments
 
-- Built on [FastMCP](https://gofastmcp.com/) by @jlowin
+- Built on [FastMCP](https://gofastmcp.com/)
 - Inspired by the [Model Context Protocol](https://modelcontextprotocol.io/)
-- Payment integration based on [GetSpace](https://github.com/DilmurodMak/booking_web_app) production implementation
+- Payment integration based on [GetSpace](https://github.com/DilmurodMak/booking_web_app) production implementation we have used in 2025. [www.getspace.uz](https://www.getspace.uz)
 
 ## 📧 Contact
 
-- **Author:** GetSpace Team
+- **Author:** Dilmurod Makhamadaliev
 - **Repository:** [github.com/DilmurodMak/payment-uz-mcp](https://github.com/DilmurodMak/payment-uz-mcp)
 - **Issues:** [Report bugs or request features](https://github.com/DilmurodMak/payment-uz-mcp/issues)
 
-## 🚀 What's Next?
-
-- [ ] Add real-time payment status checking via API
-- [ ] Support for recurring payments
-- [ ] Multi-language code generation (Go, Java, C#)
-- [ ] Interactive payment flow visualizations
-- [ ] Webhook testing utilities
-- [ ] Payment reconciliation tools
-
 ---
-
-**Made with ❤️ for the Uzbekistan developer community**
-
 *Stop reading payment docs. Start asking AI.* 🤖
